@@ -1,5 +1,22 @@
-.bloc {
+*{
+    margin:0;
+    padding: 0;
+}
+
+.carre{
+    height: 25rem;
+    width: 25rem;
     background-color: orange;
-    width: 308px;
-    height: 308px;
-  }
+    overflow-x: auto;
+    padding: 1rem;
+    
+}
+
+@media screen and (max-width: 308px){
+    .carre{
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: blue;
+    }
+}
